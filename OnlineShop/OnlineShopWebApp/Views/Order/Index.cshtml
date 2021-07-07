@@ -1,0 +1,63 @@
+﻿@model UserDeliveryInfoViewModel
+<form method="post">
+    <div class="validation" asp-validation-summary="ModelOnly"></div>
+    <div class="col-8 text-center">
+        <h3>Оформление заказа</h3>
+        <br />
+    </div>
+    <div class="row">
+        <div class="col-4">
+            <div class="list-group d-flex align-items-center">
+                <h5>Введите ваши ФИО</h5>
+                <ul>
+                    <li style="list-style-type:none">
+                        <input asp-for="LastName" type="text" class="form-control" placeholder="Фамилия" />
+                        <span class="text-danger" asp-validation-for="LastName"></span>
+                        <br />
+                        <input asp-for="FirstName" type="text" class="form-control" placeholder="Имя" />
+                        <span class="text-danger" asp-validation-for="FirstName"></span>
+                        <br />
+                        <input asp-for="PatronymicName" type="text" class="form-control" placeholder="Отчество" />
+                        <span class="text-danger" asp-validation-for="PatronymicName"></span>
+                        <br />
+                        <input asp-for="Phone" type="tel" class="form-control" placeholder="Номер телефона" />
+                        <span class="text-danger" asp-validation-for="Phone"></span>
+                        <br />
+                        <input asp-for="Email" type="email" class="form-control" placeholder="E-mail адрес" />
+                        <span class="text-danger" asp-validation-for="Email"></span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="col-4">
+            <div class="list-group d-flex align-items-center">
+                <h5>Введите адрес доставки</h5>
+                <ul>
+                    <li style="list-style-type:none">
+                        <input asp-for="Town" type="text" class="form-control" placeholder="Город" />
+                        <span class="text-danger" asp-validation-for="Town"></span>
+                        <br />
+                        <input asp-for="Street" type="text" class="form-control" placeholder="Улица" />
+                        <span class="text-danger" asp-validation-for="Street"></span>
+                        <br />
+                        <input asp-for="House" type="number" class="form-control" placeholder="Дом" />
+                        <span class="text-danger" asp-validation-for="House"></span>
+                        <br />
+                        <input asp-for="Flat" type="number" class="form-control" placeholder="Квартира" />
+                        <span class="text-danger" asp-validation-for="Flat"></span>
+                        <br />
+                        <input asp-for="Index" type="number" class="form-control" placeholder="Индекс" />
+                        <span class="text-danger" asp-validation-for="Index"></span>
+                    </li>
+                </ul>                
+            </div>
+        </div>
+    </div>
+
+    <div class="col-8 text-center">
+        <button class="btn btn-success" type="submit" asp-controller="Order" asp-action="Buy">Оформить доставку</button>
+    </div>
+
+</form>
+
+

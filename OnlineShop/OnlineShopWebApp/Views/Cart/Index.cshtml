@@ -1,0 +1,49 @@
+﻿@model CartViewModel
+    @if(Model == null || Model.Items.Count == 0)
+            {
+                <h5>В корзине нет товаров</h5>
+            }
+            else
+            {
+                <div class="row">
+                    <div class="col">
+                        <table class="table">
+                            <thead>
+                                <tr class="text-center">
+                                    <th>Название</th>
+                                    <th>Цена, руб.</th>
+                                    <th>Количество, шт.</th>
+                                    <th>Общая стоимость, руб.</th>
+                                    <th></th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach(var item in Model.Items)
+                                  {
+                                <tr class="text-center">
+                                    <td>@item.Product.Name</td>
+                                    <td>@item.Product.Cost</td>                                   
+                                    <td>
+                                        @item.Amount                                    
+                                        <a class="btn btn-outline-dark" role="button" href="/cart/add?productId=@item.Product.Id">+</a>
+                                        <a class="btn btn-outline-dark" role="button" href="/cart/decreaseAmount?productId=@item.Product.Id">-</a>
+                                    </td>
+                                    <td>@item.Cost</td>
+                                </tr>
+                                  }
+                            </tbody>
+                        </table>
+                        <div class="text-right">
+                            <h3>Итого:</h3>
+                            <h3>@Model.Cost руб.</h3>
+                        </div>
+                        <div class="text-right">
+                            <br />
+                            <a class="btn btn-danger" role="button" href="/cart/clear">Очистить корзину</a>
+                            <a class="btn btn-warning" style="color:crimson" role="button" href="/home/index">Продолжить покупки</a>
+                            <a class="btn btn-success" role="button" href="/order/index">Оформить заказ</a>
+                            <br />
+                        </div>
+                    </div>
+                </div>
+            }

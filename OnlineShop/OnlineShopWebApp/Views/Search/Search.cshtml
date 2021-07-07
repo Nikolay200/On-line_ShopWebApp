@@ -1,0 +1,32 @@
+﻿@model List<ProductViewModel>
+@{ ViewData["Title"] = "Поиск"; }
+
+<div class="row">
+    @foreach (var product in Model)
+    {
+        <div class="col-3 card shadow">
+
+            <div class="card-body">
+                <a class="btn" href="/comparing/add?id=@product.Id" role="button"><img class="figure-img" src="http://s1.iconbird.com/ico/2013/6/289/w512h5121371656132tasks.png" height="40" width="40" /></a>
+                <a class="btn" href="/favorites/add?id=@product.Id" role="button"><img class="figure-img text-lg-right" src="http://s1.iconbird.com/ico/2013/9/450/w256h2561380453904heart256x25632.png" height="30" width="30" /></a>
+                <br />
+                <br />
+                <img class="card-img-bottom" src="@product.ImagePath" />
+
+            </div>
+            <div class="container">
+
+                <div class="row align-items-end">
+
+                    <div class="col">
+
+                        <a style="color:blueviolet" href="/product/index/@product.Id"><h5>@product.Name</h5></a>
+                        <h5>@product.Cost руб.</h5><br />
+                        <a class="btn btn-primary" href="/cart/add?productId=@product.Id" role="button">Добавить в корзину</a>
+                        <br />
+                        <br />
+                    </div>
+                </div>
+            </div>
+        </div>}
+</div>

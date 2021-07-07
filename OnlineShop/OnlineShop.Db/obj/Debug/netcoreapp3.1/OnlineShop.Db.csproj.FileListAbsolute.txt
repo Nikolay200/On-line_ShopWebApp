@@ -1,0 +1,12 @@
+C:\Users\User\Desktop\ASP.NET Core\OnlineShop\OnlineShop.Db\bin\Debug\netcoreapp3.1\OnlineShop.Db.deps.json
+C:\Users\User\Desktop\ASP.NET Core\OnlineShop\OnlineShop.Db\bin\Debug\netcoreapp3.1\OnlineShop.Db.dll
+C:\Users\User\Desktop\ASP.NET Core\OnlineShop\OnlineShop.Db\bin\Debug\netcoreapp3.1\OnlineShop.Db.pdb
+C:\Users\User\Desktop\ASP.NET Core\OnlineShop\OnlineShop.Db\obj\Debug\netcoreapp3.1\OnlineShop.Db.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\ASP.NET Core\OnlineShop\OnlineShop.Db\obj\Debug\netcoreapp3.1\OnlineShop.Db.AssemblyInfo.cs
+C:\Users\User\Desktop\ASP.NET Core\OnlineShop\OnlineShop.Db\obj\Debug\netcoreapp3.1\OnlineShop.Db.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\ASP.NET Core\OnlineShop\OnlineShop.Db\obj\Debug\netcoreapp3.1\OnlineShop.Db.dll
+C:\Users\User\Desktop\ASP.NET Core\OnlineShop\OnlineShop.Db\obj\Debug\netcoreapp3.1\OnlineShop.Db.pdb
+C:\Users\User\Desktop\ASP.NET Core\OnlineShop\OnlineShop.Db\bin\Debug\netcoreapp3.1\OnlineShop.Db.runtimeconfig.json
+C:\Users\User\Desktop\ASP.NET Core\OnlineShop\OnlineShop.Db\bin\Debug\netcoreapp3.1\OnlineShop.Db.runtimeconfig.dev.json
+C:\Users\User\Desktop\ASP.NET Core\OnlineShop\OnlineShop.Db\obj\Debug\netcoreapp3.1\OnlineShop.Db.genruntimeconfig.cache
+C:\Users\User\Desktop\ASP.NET Core\OnlineShop\OnlineShop.Db\obj\Debug\netcoreapp3.1\OnlineShop.Db.csproj.AssemblyReference.cache

@@ -1,0 +1,29 @@
+﻿@model ProductViewModel
+<form method="post">
+    <div>
+        <h3>Изменить продукт</h3>
+    </div>
+    <div class="validation" asp-validation-summary="ModelOnly"></div>
+    <input type="hidden" name="Id" value="@Model?.Id" />
+    <div class="row">
+        <div class="col-10 text-center">
+            <ul>
+                <li style="list-style-type:none">
+                    <input asp-for="Name" type="text" class="" placeholder="Название продукта" value="@Model?.Name"/>
+                    <span class="text-danger" asp-validation-for="Name"></span>
+                    <br />
+                    <input asp-for="Cost" type="number" class="form-control" placeholder="Стоимость продукта" value="@Model?.Cost"/>
+                    <span class="text-danger" asp-validation-for="Cost"></span>
+                    <br />
+                    <input asp-for="Description" type="text" class="form-control" placeholder="Описание продукта" value="@Model?.Description"/>
+                    <span class="text-danger" asp-validation-for="Description"></span>
+                    <br />
+                    <input asp-for="ImagePath" type="text" class="form-control" placeholder="URL изображения" value="@Model?.ImagePath"/>
+                    <span class="text-danger" asp-validation-for="ImagePath"></span>
+                    <br />
+                    <button class="btn btn-success" type="submit" asp-area="Admin" asp-controller="Product" asp-action="Edit">Обновить</button>
+                </li>
+            </ul>
+        </div>
+    </div>
+</form>

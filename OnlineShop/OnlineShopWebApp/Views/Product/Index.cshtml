@@ -1,0 +1,14 @@
+﻿@model ProductViewModel
+@{ ViewData["Title"] = "Описание товара"; }
+
+<div class="row">
+    <div class="col-md-4 offset-md-3 card shadow">
+        <img class="card-img-top" src="@Model.ImagePath" /><br />
+        <h5>@Model.Name</h5><br />
+        <h5>@Model.Cost руб.</h5><br />
+        <h8>@Model.Description</h8><br />
+        <a class="col-6 btn btn-success p-2 offset-3" href="/cart/add?productId=@Model.Id" role="button">Добавить в корзину</a><br />
+        <a class="col-6 btn btn-warning p-2 offset-3" style="color:crimson" role="button" href="/home/index">Продолжить покупки</a><br />
+
+    </div>
+</div>

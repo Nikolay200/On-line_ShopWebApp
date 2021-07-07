@@ -1,0 +1,20 @@
+﻿@model List<ProductViewModel>
+@{ ViewData["Title"] = "Избранное"; }
+
+
+<div class="row">
+    @foreach (var product in Model)
+    {
+        <div class="col-3 card shadow">
+            <br />
+            <a class="btn btn-secondary" role="button" href="/favorites/remove/@product.Id">Убрать</a>
+            <br />
+            <img class="card-img-top" src="@product.ImagePath" /><br />
+            <h5>@product.Name</h5><br />
+            <h5>@product.Cost руб.</h5><br />
+            <h8>@product.Description</h8><br />
+            <a class="btn btn-success" href="/cart/add?productId=@product.Id" role="button">Добавить в корзину</a><br />
+
+
+        </div>}
+</div>

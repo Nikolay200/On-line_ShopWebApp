@@ -1,0 +1,43 @@
+﻿@model OrderViewModel
+@{ ViewData["Title"] = "Описание товара"; }
+
+<form method ="post">
+    <div class="row">
+        <div class="col-8">
+            <table class="table">
+                <tr>
+                    <td>Дата и время</td>
+                    <td>@Model.CreateDateTime.ToString("G")</td>
+                </tr>
+                <tr>
+                    <td>Адрес доставки</td>
+                    <td>@Model.User.Index, @Model.User.Town, @Model.User.Street, @Model.User.House, @Model.User.Flat</td>
+                </tr>
+                <tr>
+                    <td>Получатель</td>
+                    <td>@Model.User.LastName, @Model.User.FirstName, @Model.User.PatronymicName</td>
+                </tr>
+                <tr>
+                    <td>Телефон</td>
+                    <td>@Model.User.Phone</td>
+                </tr>
+                <tr>
+                    <td>E-mail адрес</td>
+                    <td>@Model.User.Email</td>
+                </tr>
+                <tr>
+                    <td>Сумма заказа</td>
+                    <td>@Model.Cost</td>
+                </tr>
+                <tr>
+                    <td>Статус заказа</td>
+                    <td>
+                        <select asp-for="@Model.Status" asp-items="@Html.GetEnumSelectList<OrderStatusViewModel>()" class="form-control"></select>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <br />
+    <button class="btn btn-success" type="submit" asp-area="Admin" asp-controller="Order" asp-action="UpdateOrderStatus" asp-route-orderId="@Model.Id">Сохранить</button>   
+</form>

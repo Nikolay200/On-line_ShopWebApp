@@ -1,0 +1,43 @@
+﻿@model List<OrderViewModel>
+    <div class="row">
+        @await Html.PartialAsync("AdminLeftMenu")
+        <div class="col-8">
+            <h5>Список заказов</h5>
+            <div class="row">
+                <div class="col">
+                    <table class="table">
+                        <thead>
+                            <tr class="text-center">
+                                <th>№</th>
+                                <th>Сумма, руб.</th>
+                                <th>Статус</th>
+                                <th>Пользователь(логин)</th>
+                                <th>Дата</th>
+                                <th>Время</th>
+                                <th><input type="checkbox" name="userOrderId"></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @for (int i = 0; i < Model.Count; i++)
+                            {
+                            <tr class="text-center">
+                                <td>@(i + 1)</td>
+                                <td>@Model[i].Cost</td>
+                                <td>@EnumHelper.GetDisplayName(Model[i].Status)</td>
+                                <td>User</td>
+                                <td>@Model[i].CreateDateTime.ToString("d")</td>
+                                <td>@Model[i].CreateDateTime.ToString("T")</td>
+                                <td><a 
+                                       asp-area="Admin"
+                                       asp-controller="Order"
+                                       asp-action="Detail"
+                                       asp-route-orderId="@Model[i].Id">Подробнее</a>
+                                </td>
+                            </tr>
+                            }
+                        </tbody>
+                    </table>                   
+                </div>
+            </div>
+        </div>
+    </div>

@@ -1,0 +1,15 @@
+﻿@model EditRightsViewModel
+<form method="post">
+    <div>
+        <h3>Текущие роли для пользователя @Model.UserName</h3>
+    </div>
+    @foreach(var role in Model.UserRoles)
+    {
+     <div>
+         @role.Name @*Здесь должен отображаться общий список ролей и список доступных ролей*@
+     </div>
+    }
+    <div>
+        <button class="btn btn-success" type="submit" asp-area="Admin" asp-controller="User" asp-action="ChangePassword">Обновить</button>
+    </div>
+</form>
