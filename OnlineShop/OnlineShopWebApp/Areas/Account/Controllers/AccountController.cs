@@ -114,7 +114,7 @@ namespace OnlineShopWebApp.Areas.Account.Controllers
         [HttpPost]              
         public IActionResult SendMailToChangePassword(ChangePassword changePassword)
         {   
-            service.Se
+            
             return View("NameUserAccount");
         }
 

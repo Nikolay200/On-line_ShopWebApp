@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\OnlineShopWebApp",
+    "\\OnlineShopWebApp\\Areas",
+    "\\OnlineShopWebApp\\Areas\\Account",
+    "\\OnlineShopWebApp\\Areas\\Account\\Views",
+    "\\OnlineShopWebApp\\Areas\\Account\\Views\\Account",
+    "\\OnlineShopWebApp\\Views",
+    "\\OnlineShopWebApp\\Views\\Shared",
+    "\\OnlineShopWebApp\\Views\\Shared\\Components",
+    "\\OnlineShopWebApp\\Views\\Shared\\Components\\Cart"
+  ],
+  "SelectedNode": "\\OnlineShop.sln",
+  "PreviewInSolutionExplorer": false
+}

@@ -10,3 +10,16 @@ C:\Users\User\Desktop\ASP.NET Core\OnlineShop\OnlineShop.Db\bin\Debug\netcoreapp
 C:\Users\User\Desktop\ASP.NET Core\OnlineShop\OnlineShop.Db\bin\Debug\netcoreapp3.1\OnlineShop.Db.runtimeconfig.dev.json
 C:\Users\User\Desktop\ASP.NET Core\OnlineShop\OnlineShop.Db\obj\Debug\netcoreapp3.1\OnlineShop.Db.genruntimeconfig.cache
 C:\Users\User\Desktop\ASP.NET Core\OnlineShop\OnlineShop.Db\obj\Debug\netcoreapp3.1\OnlineShop.Db.csproj.AssemblyReference.cache
+E:\MyShopWebApp\OnlineShop\OnlineShop.Db\bin\Debug\netcoreapp3.1\OnlineShop.Db.deps.json
+E:\MyShopWebApp\OnlineShop\OnlineShop.Db\bin\Debug\netcoreapp3.1\OnlineShop.Db.runtimeconfig.json
+E:\MyShopWebApp\OnlineShop\OnlineShop.Db\bin\Debug\netcoreapp3.1\OnlineShop.Db.runtimeconfig.dev.json
+E:\MyShopWebApp\OnlineShop\OnlineShop.Db\bin\Debug\netcoreapp3.1\OnlineShop.Db.dll
+E:\MyShopWebApp\OnlineShop\OnlineShop.Db\bin\Debug\netcoreapp3.1\OnlineShop.Db.pdb
+E:\MyShopWebApp\OnlineShop\OnlineShop.Db\obj\Debug\netcoreapp3.1\OnlineShop.Db.csproj.AssemblyReference.cache
+E:\MyShopWebApp\OnlineShop\OnlineShop.Db\obj\Debug\netcoreapp3.1\OnlineShop.Db.GeneratedMSBuildEditorConfig.editorconfig
+E:\MyShopWebApp\OnlineShop\OnlineShop.Db\obj\Debug\netcoreapp3.1\OnlineShop.Db.AssemblyInfoInputs.cache
+E:\MyShopWebApp\OnlineShop\OnlineShop.Db\obj\Debug\netcoreapp3.1\OnlineShop.Db.AssemblyInfo.cs
+E:\MyShopWebApp\OnlineShop\OnlineShop.Db\obj\Debug\netcoreapp3.1\OnlineShop.Db.csproj.CoreCompileInputs.cache
+E:\MyShopWebApp\OnlineShop\OnlineShop.Db\obj\Debug\netcoreapp3.1\OnlineShop.Db.dll
+E:\MyShopWebApp\OnlineShop\OnlineShop.Db\obj\Debug\netcoreapp3.1\OnlineShop.Db.pdb
+E:\MyShopWebApp\OnlineShop\OnlineShop.Db\obj\Debug\netcoreapp3.1\OnlineShop.Db.genruntimeconfig.cache
