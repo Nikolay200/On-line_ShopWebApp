@@ -1,3 +1,8 @@
 is_global = true
 build_property.RootNamespace = OnlineShop.Db
-build_property.ProjectDir = E:\MyShopWebApp\OnlineShop\OnlineShop.Db\
+build_property.ProjectDir = C:\Users\smirnov\Source\Repos\On-line_ShopWebApp\OnlineShop\OnlineShop.Db\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.CsWinRTUseWindowsUIXamlProjections = false
+build_property.EffectiveAnalysisLevelStyle = 
+build_property.EnableCodeStyleSeverity = 

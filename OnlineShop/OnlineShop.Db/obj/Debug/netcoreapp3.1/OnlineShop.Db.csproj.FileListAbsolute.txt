@@ -23,3 +23,17 @@ E:\MyShopWebApp\OnlineShop\OnlineShop.Db\obj\Debug\netcoreapp3.1\OnlineShop.Db.c
 E:\MyShopWebApp\OnlineShop\OnlineShop.Db\obj\Debug\netcoreapp3.1\OnlineShop.Db.dll
 E:\MyShopWebApp\OnlineShop\OnlineShop.Db\obj\Debug\netcoreapp3.1\OnlineShop.Db.pdb
 E:\MyShopWebApp\OnlineShop\OnlineShop.Db\obj\Debug\netcoreapp3.1\OnlineShop.Db.genruntimeconfig.cache
+C:\Users\smirnov\Source\Repos\On-line_ShopWebApp\OnlineShop\OnlineShop.Db\bin\Debug\netcoreapp3.1\OnlineShop.Db.deps.json
+C:\Users\smirnov\Source\Repos\On-line_ShopWebApp\OnlineShop\OnlineShop.Db\bin\Debug\netcoreapp3.1\OnlineShop.Db.runtimeconfig.json
+C:\Users\smirnov\Source\Repos\On-line_ShopWebApp\OnlineShop\OnlineShop.Db\bin\Debug\netcoreapp3.1\OnlineShop.Db.runtimeconfig.dev.json
+C:\Users\smirnov\Source\Repos\On-line_ShopWebApp\OnlineShop\OnlineShop.Db\bin\Debug\netcoreapp3.1\OnlineShop.Db.dll
+C:\Users\smirnov\Source\Repos\On-line_ShopWebApp\OnlineShop\OnlineShop.Db\bin\Debug\netcoreapp3.1\OnlineShop.Db.pdb
+C:\Users\smirnov\Source\Repos\On-line_ShopWebApp\OnlineShop\OnlineShop.Db\obj\Debug\netcoreapp3.1\OnlineShop.Db.csproj.AssemblyReference.cache
+C:\Users\smirnov\Source\Repos\On-line_ShopWebApp\OnlineShop\OnlineShop.Db\obj\Debug\netcoreapp3.1\OnlineShop.Db.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\smirnov\Source\Repos\On-line_ShopWebApp\OnlineShop\OnlineShop.Db\obj\Debug\netcoreapp3.1\OnlineShop.Db.AssemblyInfoInputs.cache
+C:\Users\smirnov\Source\Repos\On-line_ShopWebApp\OnlineShop\OnlineShop.Db\obj\Debug\netcoreapp3.1\OnlineShop.Db.AssemblyInfo.cs
+C:\Users\smirnov\Source\Repos\On-line_ShopWebApp\OnlineShop\OnlineShop.Db\obj\Debug\netcoreapp3.1\OnlineShop.Db.csproj.CoreCompileInputs.cache
+C:\Users\smirnov\Source\Repos\On-line_ShopWebApp\OnlineShop\OnlineShop.Db\obj\Debug\netcoreapp3.1\OnlineShop.Db.sourcelink.json
+C:\Users\smirnov\Source\Repos\On-line_ShopWebApp\OnlineShop\OnlineShop.Db\obj\Debug\netcoreapp3.1\OnlineShop.Db.dll
+C:\Users\smirnov\Source\Repos\On-line_ShopWebApp\OnlineShop\OnlineShop.Db\obj\Debug\netcoreapp3.1\OnlineShop.Db.pdb
+C:\Users\smirnov\Source\Repos\On-line_ShopWebApp\OnlineShop\OnlineShop.Db\obj\Debug\netcoreapp3.1\OnlineShop.Db.genruntimeconfig.cache
